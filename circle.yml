@@ -13,3 +13,4 @@ deployment:
     commands:
       - gym
       - ipa distribute:itunesconnect -i 1266233722 --upload --verbose
+      

@@ -1,0 +1,12 @@
+language: objective-c
+cache: cocoapods
+osx_image: xcode8.2
+
+notifications:
+  email:
+    - jano@hare.digital
+
+before_install:
+  - gem update fastlane --no-ri --no-rdoc --no-document
+
+script: travis_script.sh

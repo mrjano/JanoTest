@@ -34,7 +34,8 @@ platform :ios do
     gym(scheme: "JanoTest") # Build your app - more options available 
     crashlytics(
       api_token: "df95913cd5657a270d4d1d4c804e480602be4af5",
-      build_secret: "bf8cd4ba33f96cdb66b7806b691d550316dd87810117d27ee864d7818a01b524"
+      build_secret: "bf8cd4ba33f96cdb66b7806b691d550316dd87810117d27ee864d7818a01b524",
+      groups: "jano-alone-1"
     )
 
     # sh "your_script.sh"

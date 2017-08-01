@@ -4,6 +4,10 @@ machine:
   xcode:
     version: 8.2
 
+dependecies:
+  pre:
+    - gem update fastlane
+
 test:
   override:
     - echo "done"

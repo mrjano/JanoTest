@@ -4,7 +4,7 @@ machine:
   xcode:
     version: 8.2
 
-dependecies:
+dependencies:
   pre:
     - gem update fastlane
 

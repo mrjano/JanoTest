@@ -11,7 +11,7 @@ test:
         PROVISIONING_PROFILE=
         -sdk iphonesimulator
         -destination 'platform=iOS Simulator,OS=10.1,name=iPhone 7'
-        -workspace MyWorkspace.xcworkspace
+        -workspace JanoTest.xcworkspace
         -scheme "JanoTest"
         clean build test |
       tee $CIRCLE_ARTIFACTS/xcode_raw.log |

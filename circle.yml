@@ -1,6 +1,21 @@
 machine:
   environment:
     GYM_CODE_SIGNING_IDENTITY: "iPhone Distribution: Scorpion Automotive Ltd (89X33XB25A)"
+
+test:
+  override:
+    - set -o pipefail &&
+      xcodebuild
+        CODE_SIGNING_REQUIRED=NO
+        CODE_SIGN_IDENTITY=
+        PROVISIONING_PROFILE=
+        -sdk iphonesimulator
+        -destination 'platform=iOS Simulator,OS=10.1,name=iPhone 7'
+        -workspace MyWorkspace.xcworkspace
+        -scheme "JanoTest"
+        clean build test |
+      tee $CIRCLE_ARTIFACTS/xcode_raw.log |
+      xcpretty --color --report junit --output $CIRCLE_TEST_REPORTS/xcode/results.xml
  
 deployment:
   beta_distribution:

@@ -4,8 +4,7 @@ machine:
 
 test:
   override:
-    override:
-    - "true"
+    - echo "done"
  
 deployment:
   beta_distribution:
@@ -13,4 +12,3 @@ deployment:
     commands:
       - gym
       - ipa distribute:itunesconnect -i 1266233722 --upload --verbose
-      

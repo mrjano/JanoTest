@@ -243,7 +243,7 @@
 					1E6E7D1F1F3087980016C975 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 89X33XB25A;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					1E6E7D331F3087980016C975 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -603,11 +603,14 @@
 			baseConfigurationReference = 7EEC6129864DD2A00E24376F /* Pods-JanoTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 89X33XB25A;
 				INFOPLIST_FILE = JanoTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = digitalhare.JanoTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalhare.JanoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7a381220-4ec6-4176-b7a2-c13ad823f762";
+				PROVISIONING_PROFILE_SPECIFIER = "JanoTest Distrib";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -617,11 +620,14 @@
 			baseConfigurationReference = 6557AC0B4E79D530578F7750 /* Pods-JanoTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 89X33XB25A;
 				INFOPLIST_FILE = JanoTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = digitalhare.JanoTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalhare.JanoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7a381220-4ec6-4176-b7a2-c13ad823f762";
+				PROVISIONING_PROFILE_SPECIFIER = "JanoTest Distrib";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

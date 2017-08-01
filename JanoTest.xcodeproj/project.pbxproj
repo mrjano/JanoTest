@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B32AA2C133DC8F7B50CEFE2 /* Pods_JanoTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4E27D9D5FF9ED8C67A0A2C /* Pods_JanoTest.framework */; };
 		1E6E7D241F3087980016C975 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E7D231F3087980016C975 /* AppDelegate.swift */; };
 		1E6E7D261F3087980016C975 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E7D251F3087980016C975 /* ViewController.swift */; };
 		1E6E7D291F3087980016C975 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6E7D271F3087980016C975 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		1E6E7D2E1F3087980016C975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6E7D2C1F3087980016C975 /* LaunchScreen.storyboard */; };
 		1E6E7D391F3087980016C975 /* JanoTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E7D381F3087980016C975 /* JanoTestTests.swift */; };
 		1E6E7D441F3087980016C975 /* JanoTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E7D431F3087980016C975 /* JanoTestUITests.swift */; };
+		C7A21EA845DF6F60BEE35579 /* Pods_JanoTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C6FB1945FF0F5C7B61A420 /* Pods_JanoTestUITests.framework */; };
+		C93707ECF2D82FCF20E01EAE /* Pods_JanoTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33864C4406F0F3611538A471 /* Pods_JanoTestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BD94B7D936D6EE1645145EB /* Pods-JanoTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JanoTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JanoTestTests/Pods-JanoTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1E6E7D201F3087980016C975 /* JanoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JanoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E6E7D231F3087980016C975 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E6E7D251F3087980016C975 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		1E6E7D3F1F3087980016C975 /* JanoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JanoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E6E7D431F3087980016C975 /* JanoTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JanoTestUITests.swift; sourceTree = "<group>"; };
 		1E6E7D451F3087990016C975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33864C4406F0F3611538A471 /* Pods_JanoTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JanoTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB52DF2E4CD284B036A2137 /* Pods-JanoTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JanoTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JanoTestUITests/Pods-JanoTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6557AC0B4E79D530578F7750 /* Pods-JanoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JanoTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-JanoTest/Pods-JanoTest.release.xcconfig"; sourceTree = "<group>"; };
+		7EEC6129864DD2A00E24376F /* Pods-JanoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JanoTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JanoTest/Pods-JanoTest.debug.xcconfig"; sourceTree = "<group>"; };
+		B776E380C231978FC3250BA8 /* Pods-JanoTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JanoTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JanoTestUITests/Pods-JanoTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8C6FB1945FF0F5C7B61A420 /* Pods_JanoTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JanoTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4E27D9D5FF9ED8C67A0A2C /* Pods_JanoTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JanoTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A431C1881C7DDDF124DC77 /* Pods-JanoTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JanoTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JanoTestTests/Pods-JanoTestTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B32AA2C133DC8F7B50CEFE2 /* Pods_JanoTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C93707ECF2D82FCF20E01EAE /* Pods_JanoTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A21EA845DF6F60BEE35579 /* Pods_JanoTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				1E6E7D371F3087980016C975 /* JanoTestTests */,
 				1E6E7D421F3087980016C975 /* JanoTestUITests */,
 				1E6E7D211F3087980016C975 /* Products */,
+				B4A0BBB9A1D903C8E0E10EC6 /* Pods */,
+				A5DD0498D45FCDB4E1B9EF34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = JanoTestUITests;
 			sourceTree = "<group>";
 		};
+		A5DD0498D45FCDB4E1B9EF34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E27D9D5FF9ED8C67A0A2C /* Pods_JanoTest.framework */,
+				33864C4406F0F3611538A471 /* Pods_JanoTestTests.framework */,
+				B8C6FB1945FF0F5C7B61A420 /* Pods_JanoTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4A0BBB9A1D903C8E0E10EC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EEC6129864DD2A00E24376F /* Pods-JanoTest.debug.xcconfig */,
+				6557AC0B4E79D530578F7750 /* Pods-JanoTest.release.xcconfig */,
+				1BD94B7D936D6EE1645145EB /* Pods-JanoTestTests.debug.xcconfig */,
+				C7A431C1881C7DDDF124DC77 /* Pods-JanoTestTests.release.xcconfig */,
+				B776E380C231978FC3250BA8 /* Pods-JanoTestUITests.debug.xcconfig */,
+				5EB52DF2E4CD284B036A2137 /* Pods-JanoTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E6E7D481F3087990016C975 /* Build configuration list for PBXNativeTarget "JanoTest" */;
 			buildPhases = (
+				363325A25F16B51CFAF83917 /* [CP] Check Pods Manifest.lock */,
 				1E6E7D1C1F3087980016C975 /* Sources */,
 				1E6E7D1D1F3087980016C975 /* Frameworks */,
 				1E6E7D1E1F3087980016C975 /* Resources */,
+				912827D29BD3CE1FCE1651DB /* [CP] Embed Pods Frameworks */,
+				930C809AF9795F47E8213AC0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E6E7D4B1F3087990016C975 /* Build configuration list for PBXNativeTarget "JanoTestTests" */;
 			buildPhases = (
+				1762544DCC90134B44717B3A /* [CP] Check Pods Manifest.lock */,
 				1E6E7D301F3087980016C975 /* Sources */,
 				1E6E7D311F3087980016C975 /* Frameworks */,
 				1E6E7D321F3087980016C975 /* Resources */,
+				AA585F9DBAFDCC2019D286C9 /* [CP] Embed Pods Frameworks */,
+				48F72C9170894BB682DC0160 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E6E7D4E1F3087990016C975 /* Build configuration list for PBXNativeTarget "JanoTestUITests" */;
 			buildPhases = (
+				91D239CFD0AA49A629DF0AF9 /* [CP] Check Pods Manifest.lock */,
 				1E6E7D3B1F3087980016C975 /* Sources */,
 				1E6E7D3C1F3087980016C975 /* Frameworks */,
 				1E6E7D3D1F3087980016C975 /* Resources */,
+				5B62490E98A17F7F5B15B398 /* [CP] Embed Pods Frameworks */,
+				1833E5161AE9C3D84571A864 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1762544DCC90134B44717B3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1833E5161AE9C3D84571A864 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JanoTestUITests/Pods-JanoTestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		363325A25F16B51CFAF83917 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		48F72C9170894BB682DC0160 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JanoTestTests/Pods-JanoTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B62490E98A17F7F5B15B398 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JanoTestUITests/Pods-JanoTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		912827D29BD3CE1FCE1651DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JanoTest/Pods-JanoTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91D239CFD0AA49A629DF0AF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		930C809AF9795F47E8213AC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JanoTest/Pods-JanoTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA585F9DBAFDCC2019D286C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JanoTestTests/Pods-JanoTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1E6E7D1C1F3087980016C975 /* Sources */ = {
@@ -412,6 +599,7 @@
 		};
 		1E6E7D491F3087990016C975 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EEC6129864DD2A00E24376F /* Pods-JanoTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JanoTest/Info.plist;
@@ -424,6 +612,7 @@
 		};
 		1E6E7D4A1F3087990016C975 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6557AC0B4E79D530578F7750 /* Pods-JanoTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JanoTest/Info.plist;
@@ -436,6 +625,7 @@
 		};
 		1E6E7D4C1F3087990016C975 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD94B7D936D6EE1645145EB /* Pods-JanoTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +640,7 @@
 		};
 		1E6E7D4D1F3087990016C975 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A431C1881C7DDDF124DC77 /* Pods-JanoTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +655,7 @@
 		};
 		1E6E7D4F1F3087990016C975 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B776E380C231978FC3250BA8 /* Pods-JanoTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = JanoTestUITests/Info.plist;
@@ -477,6 +669,7 @@
 		};
 		1E6E7D501F3087990016C975 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EB52DF2E4CD284B036A2137 /* Pods-JanoTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = JanoTestUITests/Info.plist;

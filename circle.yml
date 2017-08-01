@@ -12,5 +12,6 @@ deployment:
   beta_distribution:
     branch: master
     commands:
-      - gym
-      - ipa distribute:itunesconnect -i 1266233722 --upload --verbose
+      # - gym
+      # - ipa distribute:itunesconnect -i 1266233722 --upload --verbose
+      - fastlane beta

@@ -242,6 +242,7 @@
 				TargetAttributes = {
 					1E6E7D1F1F3087980016C975 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 89X33XB25A;
 						ProvisioningStyle = Automatic;
 					};
 					1E6E7D331F3087980016C975 = {
@@ -602,6 +603,7 @@
 			baseConfigurationReference = 7EEC6129864DD2A00E24376F /* Pods-JanoTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 89X33XB25A;
 				INFOPLIST_FILE = JanoTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = digitalhare.JanoTest;
@@ -615,6 +617,7 @@
 			baseConfigurationReference = 6557AC0B4E79D530578F7750 /* Pods-JanoTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 89X33XB25A;
 				INFOPLIST_FILE = JanoTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = digitalhare.JanoTest;
@@ -700,6 +703,7 @@
 				1E6E7D4A1F3087990016C975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E6E7D4B1F3087990016C975 /* Build configuration list for PBXNativeTarget "JanoTestTests" */ = {
 			isa = XCConfigurationList;
@@ -708,6 +712,7 @@
 				1E6E7D4D1F3087990016C975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E6E7D4E1F3087990016C975 /* Build configuration list for PBXNativeTarget "JanoTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -716,6 +721,7 @@
 				1E6E7D501F3087990016C975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

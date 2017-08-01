@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		156FAF9B77967454DBF6BBA8E0F11A1D /* Pods-JanoTestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A396F2BF5C2989F39ADD4FE089A738FA /* Pods-JanoTestUITests-dummy.m */; };
-		1608173A0DB9480670C403845BF2D7EE /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D7C12624AB36573B17A345B5C28FFE /* SCLAlertView.swift */; };
-		3A47CB2D072BC1AC992F471A4A508B46 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79976012D991BBCB570D7574B6552363 /* SCLExtensions.swift */; };
+		1608173A0DB9480670C403845BF2D7EE /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1148C515694FD204BF77AE250C3A98 /* SCLAlertView.swift */; };
+		3A47CB2D072BC1AC992F471A4A508B46 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996DF6D7347EEC1DC9F98472A61A6A3F /* SCLExtensions.swift */; };
 		3BE108319B63E038B4390495158EFD2A /* Pods-JanoTestUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A27E9500AA70AAA1F32629C9D8D1A4CB /* Pods-JanoTestUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3CF03E55759349DD63CA9C60CC5F0A73 /* Pods-JanoTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7965E727523A899A5664CA57DE273650 /* Pods-JanoTest-dummy.m */; };
 		743B2D8FDE3674F4ADFD701AC9554521 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		777532D9908121CD0B6396F520CB6789 /* Pods-JanoTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67DADE68AB8D2C70F6286DFEE252529B /* Pods-JanoTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		946A565CF8868857620F72811BC4EDAF /* SCLAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 780E9115DC64E18BDE0435285E9D4F4D /* SCLAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		946A565CF8868857620F72811BC4EDAF /* SCLAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7391949E3F672085F8090608BA33DBF0 /* SCLAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A63A49D46DFF01BF7EE0FF9552A0B667 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A8A3B32AFA3E78FB034A8765B5C824B4 /* Pods-JanoTestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3B0BC10569CBEAB556647BDAF689FB1 /* Pods-JanoTestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4FCCF0D0ABF744141889500CB800842 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D35C892FB0ADAA4BD4AEA25528AFB554 /* Pods-JanoTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBCC9F8BB56F3CB4F18D822C6DFB037 /* Pods-JanoTestTests-dummy.m */; };
 		ECC8F534C140B9A0A73F7491284EFB6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		EEEEAF2A8ECFEB66446AF0C937F8C396 /* SCLAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D826BF6AA60C0C13D9E2DD5CE5604CD4 /* SCLAlertView-dummy.m */; };
+		EEEEAF2A8ECFEB66446AF0C937F8C396 /* SCLAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3F441A0A84880E9765BC339C7F86F8 /* SCLAlertView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,32 +36,41 @@
 /* Begin PBXFileReference section */
 		0ED4AC311719E43CB92D507FE316E6C6 /* Pods-JanoTestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JanoTestTests.modulemap"; sourceTree = "<group>"; };
 		11D0D5D0B5D95C00BF23D13D24CC14F3 /* Pods-JanoTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JanoTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		18DA4035587B16C18BA510E9CBEA4D51 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A7F89EFB9B5A3655162ECA8EB960C1F /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
+		1B8C1CAEBFEF902B888ED20982FF745E /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
 		224AE454C3DD15057D4693287C1D2436 /* Pods-JanoTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JanoTest-resources.sh"; sourceTree = "<group>"; };
 		24D946E17F094108DA312DE7E5531F9B /* Pods-JanoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JanoTest.debug.xcconfig"; sourceTree = "<group>"; };
+		29A1CF4BB3515E04CB9112A2B90F38C6 /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
 		2B4D7CF9F51AC172FF5D162D60345DC5 /* Pods-JanoTestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JanoTestUITests.modulemap"; sourceTree = "<group>"; };
 		2DD3E9C5258CCE540C4A2BF004186794 /* Pods-JanoTestTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JanoTestTests-resources.sh"; sourceTree = "<group>"; };
 		2EA1D0E41941371E9BD825782D11791D /* Pods-JanoTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JanoTest-frameworks.sh"; sourceTree = "<group>"; };
 		3666A8F3C19A03BDE933313B219347F4 /* Pods-JanoTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JanoTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3770D6D4896189A727F48C0B39BDFDE5 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
+		425A63F817ECA6AD76A3126F13661547 /* SCLAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SCLAlertView.modulemap; sourceTree = "<group>"; };
 		44C0B691E79A17FBD8DAF114E5CA321F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A915754953BDE3FBECB5447865A4567 /* SCLAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.xcconfig; sourceTree = "<group>"; };
+		46F6445FF88ABFA034D90D27A80FEA5C /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		4C877DC3206851E66613927696A41383 /* SCLAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.xcconfig; sourceTree = "<group>"; };
 		4EBCC9F8BB56F3CB4F18D822C6DFB037 /* Pods-JanoTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JanoTestTests-dummy.m"; sourceTree = "<group>"; };
-		53D7C12624AB36573B17A345B5C28FFE /* SCLAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLAlertView.swift; path = SCLAlertView/SCLAlertView.swift; sourceTree = "<group>"; };
 		5879C7FB82408F88401C2295630D2D0F /* Pods-JanoTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JanoTest.modulemap"; sourceTree = "<group>"; };
 		5C1D55EC9B42319B9F7BDBB12B2942D2 /* Pods-JanoTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JanoTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5CE1A492A3809E0BC8CB20C1D3E289D5 /* Pods_JanoTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JanoTest.framework; path = "Pods-JanoTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1148C515694FD204BF77AE250C3A98 /* SCLAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLAlertView.swift; path = SCLAlertView/SCLAlertView.swift; sourceTree = "<group>"; };
 		6082AB743F4DB8485B9BF27A67766340 /* Pods-JanoTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JanoTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6158A1FBCF845F08F8F157925E193B39 /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
 		64E6AF02032735FEE7CABB57F0DA29C2 /* Pods-JanoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JanoTest.release.xcconfig"; sourceTree = "<group>"; };
 		6520A00416AAE9CF29B16B05B68735F2 /* Pods-JanoTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JanoTest-acknowledgements.plist"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		67DADE68AB8D2C70F6286DFEE252529B /* Pods-JanoTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JanoTest-umbrella.h"; sourceTree = "<group>"; };
-		780E9115DC64E18BDE0435285E9D4F4D /* SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
+		7391949E3F672085F8090608BA33DBF0 /* SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
 		7965E727523A899A5664CA57DE273650 /* Pods-JanoTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JanoTest-dummy.m"; sourceTree = "<group>"; };
-		79976012D991BBCB570D7574B6552363 /* SCLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLExtensions.swift; path = SCLAlertView/SCLExtensions.swift; sourceTree = "<group>"; };
 		7B99E81D669787278591460E0B65EBC2 /* Pods-JanoTestUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JanoTestUITests-frameworks.sh"; sourceTree = "<group>"; };
 		7FC610EBEF61B1B370418C633F8E9D99 /* Pods-JanoTestUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JanoTestUITests-resources.sh"; sourceTree = "<group>"; };
 		8A400C76A8988ACA8A39841601859B96 /* Pods_JanoTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JanoTestTests.framework; path = "Pods-JanoTestTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		996DF6D7347EEC1DC9F98472A61A6A3F /* SCLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLExtensions.swift; path = SCLAlertView/SCLExtensions.swift; sourceTree = "<group>"; };
+		9A5CDAD79A469706117A4CB2BA22DCF5 /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
+		9B70A8956F96AB0EFABD405CDE31BDA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0824DFB80DEE46A81A7013D73F0707D /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
 		A27E9500AA70AAA1F32629C9D8D1A4CB /* Pods-JanoTestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JanoTestUITests-umbrella.h"; sourceTree = "<group>"; };
 		A396F2BF5C2989F39ADD4FE089A738FA /* Pods-JanoTestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JanoTestUITests-dummy.m"; sourceTree = "<group>"; };
 		B48E08C60F3B0C8461AB39AE3C927A03 /* Pods-JanoTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JanoTest-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -72,12 +81,14 @@
 		C78A11BEBA250ABE9E91FB2D4BC44F29 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCD45CBFD90A56E9E34509E4F22ADAB1 /* Pods-JanoTestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JanoTestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D5D173D11B7DDE1863B5657877FB8181 /* Pods-JanoTestTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JanoTestTests-frameworks.sh"; sourceTree = "<group>"; };
-		D826BF6AA60C0C13D9E2DD5CE5604CD4 /* SCLAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-dummy.m"; sourceTree = "<group>"; };
+		D76224EFA72CB47C82DBC7C0CDEFAD33 /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
 		D9C6FFBFB9CC889C28E91C9C2DCAF2C8 /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCLAlertView.framework; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED09B8D16E50B7F2DAED9CF350FEF481 /* SCLAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SCLAlertView.modulemap; sourceTree = "<group>"; };
+		DE3F441A0A84880E9765BC339C7F86F8 /* SCLAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-dummy.m"; sourceTree = "<group>"; };
 		F3B0BC10569CBEAB556647BDAF689FB1 /* Pods-JanoTestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JanoTestTests-umbrella.h"; sourceTree = "<group>"; };
 		F79D935C4B729C4F04419F4E2B33B3FD /* Pods-JanoTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JanoTestTests.release.xcconfig"; sourceTree = "<group>"; };
-		F7AF306D2AAF90D6D06E15543364D4C7 /* SCLAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-prefix.pch"; sourceTree = "<group>"; };
+		F845A9093D2102CD842E8E1458644EE0 /* SCLAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-prefix.pch"; sourceTree = "<group>"; };
+		F86C55882842029CF652687107212CA3 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
+		FC1CEAF98C03FA7CD385AB1B52EFEC7B /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,15 +127,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		21236440975E0D8924F5FBFD0C9D1478 /* SCLAlertView */ = {
+		01B62769E7CD3359C36B3D50238C58A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53D7C12624AB36573B17A345B5C28FFE /* SCLAlertView.swift */,
-				79976012D991BBCB570D7574B6552363 /* SCLExtensions.swift */,
-				42753F0DBF438AAF17062729B2173DED /* Support Files */,
+				A0824DFB80DEE46A81A7013D73F0707D /* Fabric.framework */,
 			);
-			name = SCLAlertView;
-			path = SCLAlertView;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		2C7E3A754F004E625EC80EDCE319956B /* Targets Support Files */ = {
@@ -155,18 +163,14 @@
 			path = "Target Support Files/Pods-JanoTest";
 			sourceTree = "<group>";
 		};
-		42753F0DBF438AAF17062729B2173DED /* Support Files */ = {
+		4532BF2F2A03617C65A64F19BBD6A8B6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				18DA4035587B16C18BA510E9CBEA4D51 /* Info.plist */,
-				ED09B8D16E50B7F2DAED9CF350FEF481 /* SCLAlertView.modulemap */,
-				4A915754953BDE3FBECB5447865A4567 /* SCLAlertView.xcconfig */,
-				D826BF6AA60C0C13D9E2DD5CE5604CD4 /* SCLAlertView-dummy.m */,
-				F7AF306D2AAF90D6D06E15543364D4C7 /* SCLAlertView-prefix.pch */,
-				780E9115DC64E18BDE0435285E9D4F4D /* SCLAlertView-umbrella.h */,
+				64E79F35BF9EB60669B89DB947F413D3 /* Crashlytics */,
+				E8340E315FC41A60FC5C584A09409136 /* Fabric */,
+				84EEFA95AB671AADBB8A1DEFF8839CCF /* SCLAlertView */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SCLAlertView";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		5998552EBCBE64C18C5DCC7A2125769E /* Products */ = {
@@ -180,15 +184,50 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		64E79F35BF9EB60669B89DB947F413D3 /* Crashlytics */ = {
+			isa = PBXGroup;
+			children = (
+				29A1CF4BB3515E04CB9112A2B90F38C6 /* ANSCompatibility.h */,
+				9A5CDAD79A469706117A4CB2BA22DCF5 /* Answers.h */,
+				1A7F89EFB9B5A3655162ECA8EB960C1F /* CLSAttributes.h */,
+				1B8C1CAEBFEF902B888ED20982FF745E /* CLSLogging.h */,
+				46F6445FF88ABFA034D90D27A80FEA5C /* CLSReport.h */,
+				D76224EFA72CB47C82DBC7C0CDEFAD33 /* CLSStackFrame.h */,
+				6158A1FBCF845F08F8F157925E193B39 /* Crashlytics.h */,
+				A2C6E5481A315B82A91E701034AC4D26 /* Frameworks */,
+			);
+			name = Crashlytics;
+			path = Crashlytics;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				CE1D7C96A3A3C0CED68FBC36DB57C4C4 /* Pods */,
+				4532BF2F2A03617C65A64F19BBD6A8B6 /* Pods */,
 				5998552EBCBE64C18C5DCC7A2125769E /* Products */,
 				2C7E3A754F004E625EC80EDCE319956B /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		84EEFA95AB671AADBB8A1DEFF8839CCF /* SCLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				5D1148C515694FD204BF77AE250C3A98 /* SCLAlertView.swift */,
+				996DF6D7347EEC1DC9F98472A61A6A3F /* SCLExtensions.swift */,
+				FC72AB4A1084CAEA8D3495AA7E642280 /* Support Files */,
+			);
+			name = SCLAlertView;
+			path = SCLAlertView;
+			sourceTree = "<group>";
+		};
+		A2C6E5481A315B82A91E701034AC4D26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3770D6D4896189A727F48C0B39BDFDE5 /* Crashlytics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A82087751BCF42CCCA5354C9D3273899 /* Pods-JanoTestTests */ = {
@@ -217,14 +256,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CE1D7C96A3A3C0CED68FBC36DB57C4C4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				21236440975E0D8924F5FBFD0C9D1478 /* SCLAlertView */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,6 +280,31 @@
 			);
 			name = "Pods-JanoTestUITests";
 			path = "Target Support Files/Pods-JanoTestUITests";
+			sourceTree = "<group>";
+		};
+		E8340E315FC41A60FC5C584A09409136 /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				FC1CEAF98C03FA7CD385AB1B52EFEC7B /* FABAttributes.h */,
+				F86C55882842029CF652687107212CA3 /* Fabric.h */,
+				01B62769E7CD3359C36B3D50238C58A3 /* Frameworks */,
+			);
+			name = Fabric;
+			path = Fabric;
+			sourceTree = "<group>";
+		};
+		FC72AB4A1084CAEA8D3495AA7E642280 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B70A8956F96AB0EFABD405CDE31BDA9 /* Info.plist */,
+				425A63F817ECA6AD76A3126F13661547 /* SCLAlertView.modulemap */,
+				4C877DC3206851E66613927696A41383 /* SCLAlertView.xcconfig */,
+				DE3F441A0A84880E9765BC339C7F86F8 /* SCLAlertView-dummy.m */,
+				F845A9093D2102CD842E8E1458644EE0 /* SCLAlertView-prefix.pch */,
+				7391949E3F672085F8090608BA33DBF0 /* SCLAlertView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCLAlertView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -638,7 +694,7 @@
 		};
 		C6A782D315BF4552C480989B836D2492 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A915754953BDE3FBECB5447865A4567 /* SCLAlertView.xcconfig */;
+			baseConfigurationReference = 4C877DC3206851E66613927696A41383 /* SCLAlertView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -784,7 +840,7 @@
 		};
 		FF7BF5441283BC50E95C6F663006B2F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A915754953BDE3FBECB5447865A4567 /* SCLAlertView.xcconfig */;
+			baseConfigurationReference = 4C877DC3206851E66613927696A41383 /* SCLAlertView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

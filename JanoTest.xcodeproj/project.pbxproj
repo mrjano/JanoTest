@@ -178,6 +178,7 @@
 				1E6E7D1E1F3087980016C975 /* Resources */,
 				912827D29BD3CE1FCE1651DB /* [CP] Embed Pods Frameworks */,
 				930C809AF9795F47E8213AC0 /* [CP] Copy Pods Resources */,
+				1E9A9EFB1F30BB7200A15210 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -334,6 +335,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JanoTestUITests/Pods-JanoTestUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		1E9A9EFB1F30BB7200A15210 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" df95913cd5657a270d4d1d4c804e480602be4af5 bf8cd4ba33f96cdb66b7806b691d550316dd87810117d27ee864d7818a01b524";
 		};
 		363325A25F16B51CFAF83917 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;

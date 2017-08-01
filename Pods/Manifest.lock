@@ -1,12 +1,19 @@
 PODS:
+  - Crashlytics (3.8.5):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.12)
   - SCLAlertView (0.7.0)
 
 DEPENDENCIES:
+  - Crashlytics
+  - Fabric
   - SCLAlertView
 
 SPEC CHECKSUMS:
+  Crashlytics: dfbae35ef22ca189240d230ad501feea4ee85d2d
+  Fabric: f050464eac45a2ce5a8e6e6a07e977c0df32fe28
   SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
 
-PODFILE CHECKSUM: 98c9dbffbf2c94faed5f272f554bdcce55690393
+PODFILE CHECKSUM: e031271a2404c98f80fcd492c91554235a4aa620
 
 COCOAPODS: 1.2.0
